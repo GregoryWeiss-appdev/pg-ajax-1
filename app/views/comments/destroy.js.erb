@@ -1,1 +1,3 @@
-console.log("Hiiii");
+$("#<%= dom_id(@comment) %>").fadeOut(function() {
+  $(this).remove();
+});
